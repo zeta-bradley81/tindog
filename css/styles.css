@@ -1,0 +1,166 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+  padding: 0 15%;
+}
+.carousel-item {
+  padding: 5% 10%;
+}
+
+
+.headline{
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+/* download buttons */
+.download_button {
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  padding: 5% 10%;
+  z-index: 1;
+  background-color: white;
+  position: relative;
+}
+
+#footer{
+  padding: 3% 7%;
+  text-align: center
+}
+
+.footer-icon{
+  padding: 1.5%
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.iphone_img {
+  transform: rotate(25deg);
+  width: 20%;
+  margin-left: 1rem;
+  position: absolute;
+  /* right: 30%; */
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.pricing-column {
+  padding: 3% 2%
+}
+
+.pricing-header {
+  font-size: 2rem;
+  margin: auto;
+  font-weight: 400;
+}
+
+.selling_points_header {
+  font-size: calc(1.15rem + 0.6vw);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-top: 12px;
+}
+
+.selling_points_img {
+  width: 32.5%;
+  padding-bottom: 5px;
+}
+
+.testimonial-image {
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px 20px 20px 20px;
+}
+
+#testimonials {
+  text-align: center;
+  color: white;
+  background-color: #ff4c68
+
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  padding: 3% 15% 4%;
+}
+#cta{
+    color: white;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+@media (max-width: 990px) {
+  .iphone_img {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .navbar{
+    text-align: left;
+  }
+}
